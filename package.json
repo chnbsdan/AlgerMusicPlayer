@@ -15,7 +15,7 @@
     "start": "electron-vite preview",
     "dev": "electron-vite dev",
     "dev:web": "vite dev",
-    "dev:web": "vite dev --config vite.config.ts",
+    "dev:web": "vite dev --config vite.config.ts"
     "build:web": "vite build --config vite.config.ts"
     "build": "electron-vite build",
     "postinstall": "electron-builder install-app-deps",
