@@ -9,8 +9,11 @@ import VueDevTools from 'vite-plugin-vue-devtools';
 
 export default defineConfig({
   base: './',
-  // 项目src
   root: resolve('src/renderer'),
+  build: {
+    outDir: resolve(__dirname, 'dist'),  // 输出到根目录
+    emptyOutDir: true
+  },
   resolve: {
     alias: {
       '@': resolve('src/renderer'),
