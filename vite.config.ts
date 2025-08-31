@@ -11,7 +11,7 @@ export default defineConfig({
   base: './',
   root: resolve('src/renderer'),
   build: {
-    outDir: resolve(__dirname, 'src/renderer/dist'), // 输出到 src/renderer/dist
+    outDir: resolve(__dirname, 'dist'), // 输出到 src/renderer/dist
     emptyOutDir: true
   },
   resolve: {
